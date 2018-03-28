@@ -1,30 +1,16 @@
-# mpvue
+﻿# mpvue
 
-> A Vue.js project
+`mpvue`框架本身由多个npm模块构成，入口模块已经处理好依赖关系，开发者只需要执行如下代码即可完成本地项目创建。
 
-## Build Setup
+    # 安装 vue-cli
+    $ npm i --g vue-cli
+    
+    # 根据模板项目创建本地项目
+    $ vue init webpack 目录
+    
+    # 安装依赖和启动自动构建
+    $ cd my-project
+    $ npm i
+    $ npm run dev
 
-``` bash
-# install dependencies
-npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
